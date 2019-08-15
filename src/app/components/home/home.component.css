@@ -1,0 +1,110 @@
+.search {
+    padding: 2em;
+    padding-top: 1em;   
+}
+
+.search form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search label,
+.search input[type="text"] {
+    margin-right: 0.5em;
+}
+
+.search label {
+    font-size: 1.4em
+}
+
+.search input {
+    padding: 0.4em;
+    outline: none;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 0.4em 1em;
+    background: rgb(221, 221, 221);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    padding: 0.4em 1em;
+    background: rgb(19, 129, 172);
+    cursor: pointer;
+}
+
+
+.container-content {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+table {
+   display: block;
+   flex: 0 0 95%;
+}
+
+thead {
+    display: block;
+    flex: 0 0 100%;
+}
+
+tbody {
+    display: block;
+    flex: 0 0 100%;
+}
+
+tr {
+    display: flex;
+    flex: 0 0 100%;
+}
+
+th {
+    border: 1px solid black;
+    background-color: rgb(221, 221, 221);
+    display: block;
+    flex: 0 0 10%;
+    padding: 0.5em;
+}
+
+td {
+    border: 1px solid black;
+    background-color: white;
+    display: block;
+    flex: 0 0 10%;
+    padding: 0.2em;
+    overflow: hidden;
+}
+
+
+
+
+.buttons {
+    padding: 0.5em;
+    margin: 2em;
+    display: flex;
+    flex: 0 0 100%;
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+
+}
+
+a {
+    
+}
+
+a {
+    margin: 2em 0;
+    padding-left: 0.5em;
+    /* padding-top: 1em; */
+    /* height: 100%; */
+    /* display: block; */
+    text-decoration: none;
+    background: rgb(221, 221, 221);
+    color: black;
+    border-radius: 10px;
+}

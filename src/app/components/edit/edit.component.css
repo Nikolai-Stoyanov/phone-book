@@ -1,0 +1,64 @@
+form {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 40%;
+    padding-bottom: 2em;
+    margin: 0 4em;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.container-form {
+
+    margin: 0.5em;
+    padding: 1em;
+}
+
+.wrapper {
+    flex: 0 0 60%;
+    border: 2px solid black;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+p {
+    display: flex;
+    width: 100%;
+    padding: 0 3em;
+}
+
+label {
+    flex: 0 0 15%;
+    margin: 0.5em;
+    font-size: 1.2em;
+    padding: 0.4em;
+}
+
+input[type="text"] {
+    flex: 0 0 60%;
+    margin: 0.5em;
+    padding: 0.4em;
+    margin-right: 3em;
+    margin-left: auto;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    flex: 0 0 80%;
+    margin: 0.5em auto;
+    padding: 0.5em;
+}
+
+.btn {
+    background: rgb(221, 221, 221);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: rgb(19, 129, 172);
+    cursor: pointer;
+}
+

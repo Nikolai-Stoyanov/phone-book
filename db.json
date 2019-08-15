@@ -1,0 +1,40 @@
+{
+  "contact": [
+    {
+      "firstName": "Ivan",
+      "lastName": "Petrov",
+      "homePhone": "0999888333",
+      "workPhone": "0888999111",
+      "officePhone": "052445566",
+      "work": "Energo-pro",
+      "town": "Varna",
+      "positions": null,
+      "email": "i@abv.bg",
+      "id": 1
+    },
+    {
+      "firstName": "Petar",
+      "lastName": "Ivanov",
+      "homePhone": "0798332212",
+      "workPhone": "0976221176",
+      "officePhone": "02131314",
+      "work": "cska",
+      "town": "Sofia",
+      "positions": "futball player",
+      "email": "p@gmail.bg",
+      "id": 2
+    },
+    {
+      "firstName": "Stoyan",
+      "lastName": "Georgiev",
+      "homePhone": "0999887766",
+      "workPhone": "0872918273",
+      "officePhone": "052318762",
+      "work": null,
+      "town": "varna",
+      "positions": "menager",
+      "email": "s@abv.bg",
+      "id": 3
+    }
+  ]
+}

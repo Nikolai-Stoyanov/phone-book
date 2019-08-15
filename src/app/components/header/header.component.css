@@ -1,0 +1,24 @@
+@import 'https://use.fontawesome.com/releases/v5.8.2/css/all.css';
+
+header {
+    display: flex;
+    background: rgb(221, 221, 221);
+    padding: 1em;
+    margin: 0 auto;
+    margin-bottom: 1em;
+}
+
+a {
+    font-size: 1.5em;
+    color: rgb(19, 19, 172);
+    opacity: 1;
+}
+
+a:hover {
+    color: rgb(19, 129, 172);
+    opacity: 0.8;
+}
+
+.nav {
+    margin-left: auto;
+}

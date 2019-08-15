@@ -1,0 +1,74 @@
+<div class="container">
+    <app-header></app-header>
+    <router-outlet></router-outlet>
+</div>
+
+
+<!-- <main>
+  <h1>Phone book</h1>
+  <div class="container">
+    <div class="container-form">
+      <form [formGroup]="contactForm">
+          <div class="options">
+          <p>
+              <input type="button" id="browse" value="Browse" (click)="browserHandler()">
+          </p>
+          <p>
+              <label for="search">Search</label>
+              <input type="text" id="search" formControlName="search">
+          </p>
+        </div>
+        <div class="wrapper">
+          <h3>Add/Edit Contact</h3>
+          <h4>Names</h4>
+          <p>
+              <label for="firstName">First</label>
+              <input type="text" id="firstName" formControlName="firstName">
+          </p>
+          <p>
+              <label for="lastName">Last</label>
+              <input type="text" id="lastName" formControlName="lastName">
+          </p>
+          <h4>Phones</h4>
+          <p>
+              <label for="homePhone">Home</label>
+              <input type="text" id="homePhone" formControlName="homePhone">
+          </p>
+          <p>
+              <label for="workPhone">Work</label>
+              <input type="text" id="workPhone" formControlName="workPhone">
+          </p>
+          <p>
+              <label for="officePhone">Office</label>
+              <input type="text" id="officePhone" formControlName="officePhone">
+          </p>
+          <p>
+              <input type="button" value="OK">
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="container-content">
+        <table>
+            <thead>
+              <tr>
+                <th >First Name</th>
+                <th >Last Name</th>
+                <th>Home phone</th>
+                <th>Work phone</th>
+                <th>Office phone</th>
+              </tr>
+            </thead>
+                <tbody *ngIf='orders$'>
+                  <tr *ngFor='let order of orders$'>
+                    <td >{{order.date | date: 'dd/MM/yyyy'}}</td>
+                    <td>{{order.product}} </td>
+                    <td>{{order.price}} lv</td>
+                    <td>{{order.quantity}}</td>
+                    <td>{{order.finalPrice}} lv</td>
+                  </tr>
+                </tbody>
+          </table>
+        </div>
+  </div>
+</main> -->

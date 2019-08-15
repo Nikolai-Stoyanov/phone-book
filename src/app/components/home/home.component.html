@@ -1,0 +1,41 @@
+<div class="search">
+    <form [formGroup]="searchForm" >
+        <label for="search">Search <i class="fas fa-search"></i></label>
+        <input type="text" id="search" formControlName="search" (input)="inputSearch($event.target.value)"/>
+        <input class="btn" type="button" (click)="clearSearch()" value="Clear">
+    </form>
+</div>
+<div class="container-content">
+    <table>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Home phone</th>
+                <th>Work phone</th>
+                <th>Office phone</th>
+                <th>Email</th>
+                <th>Town</th>
+                <th>Work</th>
+                <th>Position</th>
+            </tr>
+        </thead>
+        <tbody *ngIf="contacts$">
+            <tr *ngFor="let contact of contacts$">
+                <td>{{contact.firstName}}</td>
+                <td>{{contact.lastName}}</td>
+                <td>{{contact.homePhone}}</td>
+                <td>{{contact.workPhone}}</td>
+                <td>{{contact.officePhone}}</td>
+                <td>{{contact.email}}</td>
+                <td>{{contact.town}}</td>
+                <td>{{contact.work}}</td>
+                <td>{{contact.positions}}</td>
+                <div class="butons">
+                    <a class="btn" type="button" routerLink="/edit" [queryParams]="{id: contact.id}">Edit</a>
+                    <a class="btn" type="button"  (click)="deleteContact(contact.id)">Delete</a>
+                </div>  
+            </tr>
+        </tbody>
+    </table>
+</div>
